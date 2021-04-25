@@ -2,6 +2,7 @@
   "name": "video-timer",
   "version": "0.1.0",
   "scripts": {
+    "nix": "rm -fr node_modules/.bin",
     "start": "electron dist",
     "build": "electron-packager dist --overwrite"
   },
